@@ -1,0 +1,74 @@
+.loginform{
+
+
+  width: 300px;
+  height: 300px;
+
+
+  padding: 30px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+}
+
+
+
+.loginform input[type="text"],.loginform input[type="password"]{
+
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid white;
+  padding: 14px 10px;
+  width: 250px;
+  color: white;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+loginform input[type="text"],.loginform input[type="password"]:focus{
+
+ width: 270px;
+ border-color: white;
+
+}
+
+.loginform input[type="submit"]{
+
+  border: 0;
+  background: none;
+ display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid white;
+  padding: 14px 10px;
+  width: 220px;
+  color: white;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25px;
+
+
+}
+
+.loginform input[type="submit"]:hover{
+
+background: green;
+
+}
+.footerlogin {
+     display: block;
+     padding-top: 500px;
+     text-align: center;
+
+}
+.loginform{
+
+
+}

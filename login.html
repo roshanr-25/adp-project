@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roar Cycle - Contact Us Details Address Phone Number</title>
+    <meta name="description" content="Contact details for Roar - 57 Moyglare Abbey, Dublin, w23c1k2. Phone +353 5465481">
+
+    <!-- This is Eric Meyers CSS reset -->
+    <link rel="stylesheet" href="css-reset.css">
+
+    <!-- This is my own style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script>
+
+
+       function validate()
+       {
+
+         var username= document.getElementById("usernameform").value;
+         var password=document.getElementById("passwordform").value;
+         if(username=="admin" && password=="user")
+         {
+           alert("LOGIN SUCCESSFUL");
+           return false;
+
+         }
+         else{
+
+           alert("LOGIN FAILED");
+         }
+       }
+       </script>
+
+</head>
+<body id="formbody">
+    <div class="container">
+        <header>
+                <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo-roar-bikes.svg" alt="Logo for Bike Repair shop Roar Bikes">
+                        </a>
+                    </div>
+
+            <nav>
+
+
+                <div class="navbutton">
+                    <a href="#">Book Online</a>
+
+
+
+                                        <div class="newbox">
+                                            <div class="dropdown">
+
+                                                <div class="navbutton"><a href="service.html">Services offered </a></div>
+                                                <div class="navbutton"><a href="call.html">Request Callback</a></div>
+                                            </div>
+                                        </div>
+
+
+
+
+                </div>
+
+                <div class="navbutton">
+                    <a href="aboutus.html">About</a>
+                </div>
+
+                <div class="navbutton">
+                    <a href="contact-us.html">Login</a>
+                </div>
+
+
+            </nav>
+        </header>
+
+
+
+        <div class="main">
+
+<!--content goes here-->
+   <form class="loginform" action="index.html" method="post">
+
+    <h2>
+    LOGIN</h2>
+
+    <input type="text" name="" value="Enter Username" id="usernameform">
+    <input type="password" name="" value="Enter password" id="passwordform">
+    <input type="submit" name="" value="login" onclick="validate()">
+    <br><br><br><br><br><br><br><br>
+
+
+   </form>
+
+
+  <div class="chumma">
+
+    <p>&copy Roar Bikes | All Rights Reserved.</p>
+
+  </div>
+
+
+
+
+
+
+
+
+   </div>
+</body>
+</html>
